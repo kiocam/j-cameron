@@ -34,7 +34,7 @@ export default {
 		display: flex;
 		margin-top: 150px;
 		padding: 0px 100px;
-		flex-wrap: wrap;
+		//flex-wrap: wrap;
 	}
 }
 </style>

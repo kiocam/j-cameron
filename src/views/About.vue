@@ -14,10 +14,9 @@
         Front-end
         <br />developer
       </p>
+      <img class="time-line" src="../assets/Timeline.png" alt="time-line" />
     </section>
-    <br />
     <!--  -->
-    <img class="time-line" src="../assets/Timeline.png" alt="time-line" />
   </div>
 </template>
 
@@ -48,7 +47,6 @@
 }
 
 .time-line {
-  margin: 70px auto;
-  margin-left: 0px;
+  margin: 75px auto;
 }
 </style>
