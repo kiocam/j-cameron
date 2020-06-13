@@ -23,7 +23,7 @@ export default {
 	-moz-osx-font-smoothing: grayscale;
 	color: #fff;
 	background-color: #2d3436;
-	height: 100vh;
+	min-height: 100vh;
 
 	a {
 		text-decoration: none;
@@ -34,6 +34,7 @@ export default {
 		display: flex;
 		margin-top: 150px;
 		padding: 0px 100px;
+		flex-wrap: wrap;
 	}
 }
 </style>
