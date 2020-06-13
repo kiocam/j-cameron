@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<h1 class="logo">JASON</h1>
+		<h1 class="logo">J</h1>
 		<nav>
 			<ul class="nav__links">
 				<li>
@@ -48,6 +48,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -57,9 +59,12 @@ header {
 
 .logo {
 	cursor: pointer;
+	font-family: 'Sriracha', cursive;
+	font-size: 4em;
 }
 
-.nav__links, .social__links {
+.nav__links,
+.social__links {
 	list-style: none;
 	li {
 		display: inline-block;
@@ -67,7 +72,7 @@ header {
 	}
 	a {
 		text-decoration: none;
-    color: #576574;
+		color: #fff;
 	}
 }
 </style>

@@ -16,12 +16,24 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 #app {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
+	color: #fff;
+	background-color: #2d3436;
+	height: 100vh;
+
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.wrapper {
+		display: flex;
+		margin-top: 150px;
+		padding: 0px 100px;
+	}
 }
 </style>
