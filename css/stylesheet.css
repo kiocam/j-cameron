@@ -2512,7 +2512,7 @@ hr {
   transition: all 0.3s ease-in-out;
 }
 .portfolio .portfolio-box:hover .portfolio-overlay {
-  opacity: 1;
+  opacity:1;
 }
 .portfolio .portfolio-box .portfolio-img img {
   -webkit-transition: all 0.3s ease-in-out;
