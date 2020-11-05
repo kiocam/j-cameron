@@ -305,9 +305,5 @@
 	var submit = $('#submit-btn') // submit button
 
 	// form submit event
-	form.on('submit', function (e) {
-		e.preventDefault() // prevent default form submit
-		$form.reset()
-	})
 
 })(jQuery)
