@@ -206,8 +206,8 @@
 
 function initMap () {
 	var map = new google.maps.Map(document.getElementById('map-canvas'), {
-		zoom: 18,
-		center: new google.maps.LatLng(-12.046014, -77.030503),
+		zoom: 17,
+		center: new google.maps.LatLng(43.6864608, -79.5990482),
 		disableDefaultUI: true,
 		styles: [
 			{
@@ -246,7 +246,7 @@ function initMap () {
 		]
 	})
 	marker = new google.maps.Marker({
-		position: new google.maps.LatLng(-12.046014, -77.030503),
+		position: new google.maps.LatLng(43.6864608, -79.5990482),
 		map: map,
 		//icon: '/assets/img/marker.png',
 		animation: google.maps.Animation.BOUNCE,
