@@ -205,9 +205,9 @@
 
 
 function initMap () {
-	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 13,
-		center: new google.maps.LatLng(43.7032866, -79.5157167),
+	var map = new google.maps.Map(document.getElementById('map-canvas'), {
+		zoom: 18,
+		center: new google.maps.LatLng(-12.046014, -77.030503),
 		disableDefaultUI: true,
 		styles: [
 			{
@@ -246,7 +246,7 @@ function initMap () {
 		]
 	})
 	marker = new google.maps.Marker({
-		position: new google.maps.LatLng(43.7032866, -79.5157167),
+		position: new google.maps.LatLng(-12.046014, -77.030503),
 		map: map,
 		//icon: '/assets/img/marker.png',
 		animation: google.maps.Animation.BOUNCE,
